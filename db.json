@@ -1,14 +1,54 @@
 {
   "movies": [
     {
-      "title": "Casablanca",
-      "rating": "4",
+      "title": "Casablanca ",
+      "rating": "5",
       "id": 1
     },
     {
-      "title": "Star Wars: A New Hope",
+      "title": "Star Wars",
       "rating": "5",
       "id": 2
+    },
+    {
+      "title": "The Little Mermaid",
+      "rating": "1",
+      "id": 5
+    },
+    {
+      "title": "The Equalizer - Edit",
+      "rating": "5",
+      "id": 6
+    },
+    {
+      "title": "Killing Eve",
+      "rating": "5",
+      "id": 7
+    },
+    {
+      "title": "Monsters Inc. ",
+      "rating": "1",
+      "id": 8
+    },
+    {
+      "title": "WallE",
+      "rating": "5",
+      "id": 10
+    },
+    {
+      "title": "Toy Story -Edit",
+      "rating": "3",
+      "id": 11
+    },
+    {
+      "title": "Sandlot",
+      "rating": "2",
+      "id": 12
+    },
+    {
+      "title": "Titanic",
+      "rating": "4",
+      "id": 13
     }
   ]
 }

@@ -2,9 +2,54 @@ html, body {
     height: 100%;
 }
 
-.container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-100%);
-    text-align: center;
+/*.container {*/
+/*    position: relative;*/
+/*    top: 50%;*/
+/*    transform: translateY(-100%);*/
+/*    text-align: center;*/
+/*}*/
+
+#spinner{
+    /*visibility: hidden;*/
+    display: block;
+    width: 80px;
+    height: 80px;
+
+    border: 2px solid #f3f3f3;
+    border-top:3px solid #f25a41;
+    border-radius: 100%;
+
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    margin: auto;
+
+    animation: spin 1s infinite linear;
+}
+
+.hidden-content{
+    display: none;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+          transform: rotate(360deg);
+      }
+}
+
+#spinner.show {
+    visibility: visible;
+}
+
+#adding-movie-tag, #edit-movie-tag{
+    display: none;
+}
+
+.marked{
+    background-color: #5c5c75;
+    color:#000000;
+    font-weight:500;
 }
