@@ -1,28 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>My Application</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css" />
+	<meta charset="UTF-8" />
+	<title>My Application</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="/style.css" />
 </head>
 <body>
 
-<div class="container">
-    <h1>Hello There!</h1>
-    <p>To get started, edit <code>src/index.js</code>.</p>
-</div>
+	<div class="container">
 
-    <div class="container">
-        <h1>Movie Application!!! </h1>
-        <hr>
-        <h4>Steps</h4>
-        <ol>
-            <li>Loading Message</li>
-            <li>Loading Message</li>
-            <li>Loading </li>
-        </ol>
-    </div>
+		<h1>Movie Application!!! </h1>
+
+		<div class="row" style="display: none">
+			<hr>
+			<h4>Steps</h4>
+			<ol>
+				<li>Loading Message</li>
+					<ul>
+						<li>Show/hide</li>
+						<li>maybe some custom css</li>
+					</ul>
+				<li>Ajax request</li>
+					<ul>
+						<li>Fetch - get request</li>
+						<li>loop through movies to display</li>
+						<li>Append in some sort of format</li>
+						<li>on the completion .then stop the loading animation</li>
+					</ul>
+			</ol>
+
+			<h4>console is your bff!!</h4>
+		</div>
+
+		<div class="row">
+			<h4 id="initial-loading-msg">Loading......</h4>
+			<div id="movie-body"></div>
+		</div>
+	</div>
+
+<script src="./main.js"></script>
 
 </body>
 </html>
